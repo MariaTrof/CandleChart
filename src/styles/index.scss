@@ -1,0 +1,10 @@
+@use "reset";
+@use "global";
+
+:root {
+  font-family: global.$font-family;
+  line-height: global.$base-line-height;
+  background-color: global.$black-color;
+  height: 120vh;
+  box-sizing: border-box;
+}
